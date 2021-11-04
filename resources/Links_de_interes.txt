@@ -1,0 +1,15 @@
+
+Hoja de datos Sensor SHTC3
+https://media.digikey.com/pdf/Data%20Sheets/Sensirion%20PDFs/HT_DS_SHTC3_D1.pdf
+
+Hoja de datos Pantalla OLED 0.91" 128X32 SSD1306
+http://www.buydisplay.com/download/manual/ER-OLED0.91-1_Series_Datasheet.pdf
+
+Protocolo pantalla OLED
+https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf
+
+Hoja de aplicación cargador batería
+http://ww1.microchip.com/downloads/en/AppNotes/01149c.pdf
+
+Aplicación TP4056
+https://www.best-microcontroller-projects.com/tp4056.html#Using_3_Components_to_achieve_safe_charging
