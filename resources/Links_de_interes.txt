@@ -13,3 +13,6 @@ http://ww1.microchip.com/downloads/en/AppNotes/01149c.pdf
 
 Aplicación TP4056
 https://www.best-microcontroller-projects.com/tp4056.html#Using_3_Components_to_achieve_safe_charging
+
+Hoja de datos módulo micro SD
+http://datalogger.pbworks.com/w/file/fetch/89507207/Datalogger%20-%20SD%20Memory%20Reader%20Datasheet.pdf
