@@ -13,3 +13,10 @@ http://ww1.microchip.com/downloads/en/AppNotes/01149c.pdf
 
 Aplicación TP4056
 https://www.best-microcontroller-projects.com/tp4056.html#Using_3_Components_to_achieve_safe_charging
+
+
+Aplicación Módulo adaptador Micro SD 
+https://components101.com/modules/micro-sd-card-module-pinout-features-datasheet-alternatives
+
+Hoja de datos Módulo adaptador Micro SD 
+https://components101.com/sites/default/files/component_datasheet/Micro-SD-Card-Module-Datasheet.pdf

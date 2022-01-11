@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name esp32)(type Legacy)(uri /home/raul/Documents/College/Embbebed_Systems/project_schema/project1/ESP32-WROOM-32_M103QH3200PH3Q0.lib)(options "")(descr ""))
+  (lib (name esp32v2)(type Legacy)(uri /home/raul/Documents/College/Embbebed_Systems/project_schema/project1/esp32_wroom32.lib)(options "")(descr ""))
+)
