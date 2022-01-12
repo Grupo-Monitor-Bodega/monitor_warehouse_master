@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L esp32v2:ESP32-WROOM U1
-U 1 1 61DCFA75
-P 6050 3850
-F 0 "U1" H 6025 5237 60  0000 C CNN
-F 1 "ESP32-WROOM" H 6025 5131 60  0000 C CNN
-F 2 "ESP32-footprints-Lib:ESP32-WROOM" H 6400 5200 60  0001 C CNN
-F 3 "" H 5600 4300 60  0001 C CNN
-	1    6050 3850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_US R2
 U 1 1 61DDB65C
 P 1050 1950
@@ -384,4 +373,48 @@ Wire Notes Line style solid
 	10850 2700 9300 2700
 Text Notes 9900 2800 2    50   ~ 0
 SD_INTERFACE
+$Comp
+L Connector_Generic:Conn_01x03 J3
+U 1 1 61DF05AB
+P 9950 5300
+F 0 "J3" H 10030 5342 50  0000 L CNN
+F 1 "Conn_01x03" H 10030 5251 50  0000 L CNN
+F 2 "" H 9950 5300 50  0001 C CNN
+F 3 "~" H 9950 5300 50  0001 C CNN
+	1    9950 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 5200 9600 5200
+Wire Wire Line
+	9750 5300 9600 5300
+Wire Wire Line
+	9750 5400 9600 5400
+Text Label 9600 5200 2    50   ~ 0
+Vin
+Text Label 9600 5300 2    50   ~ 0
+DATA_OUT_DTH22_SENSOR
+Text Label 9600 5400 2    50   ~ 0
+GND
+Wire Notes Line style solid
+	8550 4950 8550 5500
+Wire Notes Line style solid
+	8550 5500 10650 5500
+Wire Notes Line style solid
+	10650 5500 10650 4950
+Wire Notes Line style solid
+	10650 4950 8550 4950
+$Comp
+L esp32v2:ESP32-WROOM U1
+U 1 1 61DF6B71
+P 6050 3850
+F 0 "U1" H 6025 5237 60  0000 C CNN
+F 1 "ESP32-WROOM" H 6025 5131 60  0000 C CNN
+F 2 "ESP32-footprints-Lib:ESP32-WROOM" H 6400 5200 60  0001 C CNN
+F 3 "" H 5600 4300 60  0001 C CNN
+	1    6050 3850
+	1    0    0    -1  
+$EndComp
+Text Notes 9400 5050 2    50   ~ 0
+DTH22_SENSOR_CONN
 $EndSCHEMATC
