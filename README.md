@@ -14,3 +14,7 @@ El proyecto consiste en un monitor que tomará los datos relacionados a la tempe
 Se busca que el dispositivo final sea lo más pequeño posible con el fin de facilitar su portabilidad, por otra parte, se requiere que exista la posibilidad de realizar un monitoreo de forma remota y como requerimiento opcional, de realizar a su vez un historial sobre las dos variables a lo largo del tiempo para futuras mejoras en cuanto a la operación de la bodega.
 
 Para la ejecución del proyecto, se realizará primeramente un prototipo funcional haciendo uso de un microcontrolador ESP32, de un sensor Shtc3 de humedad y temperatura, una pantalla lcd, así como de una protoboard y cables necesarios. Una vez el prototipo sea funcional, se realizarán los diseños para la PCB y la caja necesaria para la contención del producto y fácil accesibilidad para el cliente.
+
+Con el fin de realizar alguna revisión posterior al hardware y software, se disponen de dos pines para propósito general.
+
+Por último, en la sección de "Wiki", se amplía la información relacionada con el proyecto.
