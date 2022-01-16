@@ -16,3 +16,16 @@ https://www.best-microcontroller-projects.com/tp4056.html#Using_3_Components_to_
 
 Hoja de datos módulo micro SD
 http://datalogger.pbworks.com/w/file/fetch/89507207/Datalogger%20-%20SD%20Memory%20Reader%20Datasheet.pdf
+
+Hoja de datos regulador LD1117
+https://www.st.com/en/power-management/ldl1117.html
+
+Hoja de datos Mosfet canal P BSS84P
+https://www.electronicaplugandplay.com/component/edocman/?task=document.viewdoc&id=174&Itemid=
+
+Hoja de datos Mosfet canal N BSS138
+https://www.electronicaplugandplay.com/component/edocman/?task=document.viewdoc&id=85&Itemid=
+
+
+Conexión para la medición del voltaje 
+https://en.ovcharov.me/2020/02/29/how-to-measure-battery-level-with-esp32-microcontroller/
