@@ -47,7 +47,7 @@ AR Path="/61E794A3" Ref="R?"  Part="1"
 AR Path="/61E40B33/61E794A3" Ref="R3"  Part="1" 
 F 0 "R3" H 1818 5246 50  0000 L CNN
 F 1 "1k" H 1818 5155 50  0000 L CNN
-F 2 "" V 1790 5190 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1790 5190 50  0001 C CNN
 F 3 "~" H 1750 5200 50  0001 C CNN
 	1    1750 5200
 	1    0    0    -1  
@@ -60,7 +60,7 @@ AR Path="/61E794A9" Ref="R?"  Part="1"
 AR Path="/61E40B33/61E794A9" Ref="R1"  Part="1" 
 F 0 "R1" H 1318 5246 50  0000 L CNN
 F 1 "1k" H 1318 5155 50  0000 L CNN
-F 2 "" V 1290 5190 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1290 5190 50  0001 C CNN
 F 3 "~" H 1250 5200 50  0001 C CNN
 	1    1250 5200
 	1    0    0    -1  
@@ -73,7 +73,7 @@ AR Path="/61E794AF" Ref="D?"  Part="1"
 AR Path="/61E40B33/61E794AF" Ref="D2"  Part="1" 
 F 0 "D2" V 1789 5532 50  0000 R CNN
 F 1 "LED" V 1698 5532 50  0000 R CNN
-F 2 "" H 1750 5650 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1750 5650 50  0001 C CNN
 F 3 "~" H 1750 5650 50  0001 C CNN
 	1    1750 5650
 	0    -1   -1   0   
@@ -86,7 +86,7 @@ AR Path="/61E794B5" Ref="D?"  Part="1"
 AR Path="/61E40B33/61E794B5" Ref="D1"  Part="1" 
 F 0 "D1" V 1289 5532 50  0000 R CNN
 F 1 "LED" V 1198 5532 50  0000 R CNN
-F 2 "" H 1250 5650 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1250 5650 50  0001 C CNN
 F 3 "~" H 1250 5650 50  0001 C CNN
 	1    1250 5650
 	0    -1   -1   0   
@@ -104,46 +104,14 @@ Wire Wire Line
 Text Label 2350 2500 0    50   ~ 0
 BOOT
 Wire Wire Line
-	2200 2500 2200 2650
-Connection ~ 2200 2500
-Wire Wire Line
 	2200 2500 2350 2500
 Wire Wire Line
 	2200 2350 2200 2500
-Wire Wire Line
-	2200 3050 2200 3300
-$Comp
-L Switch:SW_DPST_x2 SW?
-U 2 1 61E794C9
-P 2200 2850
-AR Path="/61E794C9" Ref="SW?"  Part="2" 
-AR Path="/61E40B33/61E794C9" Ref="SW1"  Part="2" 
-F 0 "SW1" V 2154 2948 50  0000 L CNN
-F 1 "SW_DPST_x2" V 2245 2948 50  0000 L CNN
-F 2 "" H 2200 2850 50  0001 C CNN
-F 3 "~" H 2200 2850 50  0001 C CNN
-	2    2200 2850
-	0    1    1    0   
-$EndComp
 Text Label 1350 3250 3    50   ~ 0
 EN
-Connection ~ 1350 3100
 Wire Wire Line
 	1350 3100 1350 3250
 Connection ~ 1350 2400
-$Comp
-L Switch:SW_DPST_x2 SW?
-U 1 1 61E794D7
-P 1350 2800
-AR Path="/61E794D7" Ref="SW?"  Part="1" 
-AR Path="/61E40B33/61E794D7" Ref="SW1"  Part="1" 
-F 0 "SW1" V 1350 2450 50  0000 L CNN
-F 1 "SW_DPST_x2" V 1450 2300 50  0000 L CNN
-F 2 "" H 1350 2800 50  0001 C CNN
-F 3 "~" H 1350 2800 50  0001 C CNN
-	1    1350 2800
-	0    1    1    0   
-$EndComp
 $Comp
 L Device:C C?
 U 1 1 61E794DD
@@ -152,13 +120,11 @@ AR Path="/61E794DD" Ref="C?"  Part="1"
 AR Path="/61E40B33/61E794DD" Ref="C3"  Part="1" 
 F 0 "C3" H 1585 2754 50  0000 R CNN
 F 1 "100nF" H 1585 2845 50  0000 R CNN
-F 2 "" H 1738 2650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1738 2650 50  0001 C CNN
 F 3 "~" H 1700 2800 50  0001 C CNN
 	1    1700 2800
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1350 3100 1350 3000
 Wire Wire Line
 	1700 2950 1700 3100
 Wire Wire Line
@@ -175,7 +141,7 @@ AR Path="/61E794EA" Ref="R?"  Part="1"
 AR Path="/61E40B33/61E794EA" Ref="R4"  Part="1" 
 F 0 "R4" H 2268 2246 50  0000 L CNN
 F 1 "10k" H 2268 2155 50  0000 L CNN
-F 2 "" V 2240 2190 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2240 2190 50  0001 C CNN
 F 3 "~" H 2200 2200 50  0001 C CNN
 	1    2200 2200
 	1    0    0    -1  
@@ -208,7 +174,7 @@ AR Path="/61E7E1DF" Ref="U?"  Part="1"
 AR Path="/61E40B33/61E7E1DF" Ref="U2"  Part="1" 
 F 0 "U2" H 5675 3837 60  0000 C CNN
 F 1 "ESP32-WROOM" H 5675 3731 60  0000 C CNN
-F 2 "ESP32-footprints-Lib:ESP32-WROOM" H 6050 3800 60  0001 C CNN
+F 2 "ESPRESSIF_3DMODELS:ESP32-S3-WROOM-1" H 6050 3800 60  0001 C CNN
 F 3 "" H 5250 2900 60  0001 C CNN
 	1    5700 2450
 	1    0    0    -1  
@@ -241,7 +207,7 @@ AR Path="/61E7E1EF" Ref="J?"  Part="1"
 AR Path="/61E40B33/61E7E1EF" Ref="J2"  Part="1" 
 F 0 "J2" H 9730 4492 50  0000 L CNN
 F 1 "Conn_01x03" H 9730 4401 50  0000 L CNN
-F 2 "" H 9650 4450 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 9650 4450 50  0001 C CNN
 F 3 "~" H 9650 4450 50  0001 C CNN
 	1    9650 4450
 	1    0    0    -1  
@@ -288,7 +254,7 @@ AR Path="/61E7E206" Ref="J?"  Part="1"
 AR Path="/61E40B33/61E7E206" Ref="J4"  Part="1" 
 F 0 "J4" H 9480 3192 50  0000 L CNN
 F 1 "Conn_01x06" H 9480 3101 50  0000 L CNN
-F 2 "" H 9400 3200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 9400 3200 50  0001 C CNN
 F 3 "~" H 9400 3200 50  0001 C CNN
 	1    9400 3200
 	1    0    0    -1  
@@ -327,7 +293,7 @@ AR Path="/61E7E219" Ref="J?"  Part="1"
 AR Path="/61E40B33/61E7E219" Ref="J3"  Part="1" 
 F 0 "J3" H 9430 1592 50  0000 L CNN
 F 1 "Conn_01x04" H 9430 1501 50  0000 L CNN
-F 2 "" H 9350 1600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 9350 1600 50  0001 C CNN
 F 3 "~" H 9350 1600 50  0001 C CNN
 	1    9350 1600
 	1    0    0    -1  
@@ -358,24 +324,14 @@ Text Label 6800 2500 0    50   ~ 0
 CS
 Wire Wire Line
 	6600 1700 6800 1700
-Wire Wire Line
-	6600 2300 6800 2300
-Wire Wire Line
-	6600 2400 6800 2400
-Wire Wire Line
-	6600 2500 6800 2500
 Text Label 6800 2800 0    50   ~ 0
 DATA_OUT_DTH22_SENSOR
-Wire Wire Line
-	6600 2800 6800 2800
 Text Label 6800 1900 0    50   ~ 0
 RX
 Text Label 6800 2000 0    50   ~ 0
 TX
 Wire Wire Line
 	6600 1900 6800 1900
-Wire Wire Line
-	6600 2000 6800 2000
 Text Label 6800 3100 0    50   ~ 0
 GND
 Text Label 5250 3700 3    50   ~ 0
@@ -390,8 +346,6 @@ Wire Wire Line
 	4750 3150 4450 3150
 Text Label 6800 2900 0    50   ~ 0
 BOOT
-Wire Wire Line
-	6600 2900 6800 2900
 Text Label 4450 1950 2    50   ~ 0
 EN
 Text Label 4450 1850 2    50   ~ 0
@@ -411,8 +365,6 @@ F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 3550 5550 50  0001 L 
 	1    3550 5550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6600 2700 6800 2700
 Wire Wire Line
 	4750 2850 4450 2850
 $Comp
@@ -434,7 +386,7 @@ AR Path="/61EAEEEE" Ref="R?"  Part="1"
 AR Path="/61E40B33/61EAEEEE" Ref="R5"  Part="1" 
 F 0 "R5" H 3718 4896 50  0000 L CNN
 F 1 "100k" H 3718 4805 50  0000 L CNN
-F 2 "" V 3690 4840 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3690 4840 50  0001 C CNN
 F 3 "~" H 3650 4850 50  0001 C CNN
 	1    3650 4850
 	1    0    0    -1  
@@ -447,7 +399,7 @@ AR Path="/61EB1A16" Ref="R?"  Part="1"
 AR Path="/61E40B33/61EB1A16" Ref="R6"  Part="1" 
 F 0 "R6" H 4518 5746 50  0000 L CNN
 F 1 "10k" H 4518 5655 50  0000 L CNN
-F 2 "" V 4490 5690 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4490 5690 50  0001 C CNN
 F 3 "~" H 4450 5700 50  0001 C CNN
 	1    4450 5700
 	1    0    0    -1  
@@ -462,7 +414,7 @@ AR Path="/61EB2E00" Ref="R?"  Part="1"
 AR Path="/61E40B33/61EB2E00" Ref="R7"  Part="1" 
 F 0 "R7" H 4518 6346 50  0000 L CNN
 F 1 "10k" H 4518 6255 50  0000 L CNN
-F 2 "" V 4490 6290 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4490 6290 50  0001 C CNN
 F 3 "~" H 4450 6300 50  0001 C CNN
 	1    4450 6300
 	1    0    0    -1  
@@ -550,7 +502,7 @@ AR Path="/61EFF9BF" Ref="J?"  Part="1"
 AR Path="/61E40B33/61EFF9BF" Ref="J6"  Part="1" 
 F 0 "J6" H 9730 5242 50  0000 L CNN
 F 1 "Conn_01x03" H 9730 5151 50  0000 L CNN
-F 2 "" H 9650 5200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 9650 5200 50  0001 C CNN
 F 3 "~" H 9650 5200 50  0001 C CNN
 	1    9650 5200
 	1    0    0    -1  
@@ -585,7 +537,7 @@ AR Path="/61F01DCC" Ref="J?"  Part="1"
 AR Path="/61E40B33/61F01DCC" Ref="J5"  Part="1" 
 F 0 "J5" H 9680 5942 50  0000 L CNN
 F 1 "Conn_01x03" H 9680 5851 50  0000 L CNN
-F 2 "" H 9600 5900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 9600 5900 50  0001 C CNN
 F 3 "~" H 9600 5900 50  0001 C CNN
 	1    9600 5900
 	1    0    0    -1  
@@ -616,7 +568,7 @@ AR Path="/61E794F6" Ref="R?"  Part="1"
 AR Path="/61E40B33/61E794F6" Ref="R2"  Part="1" 
 F 0 "R2" H 1418 2096 50  0000 L CNN
 F 1 "10k" H 1418 2005 50  0000 L CNN
-F 2 "" V 1390 2040 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1390 2040 50  0001 C CNN
 F 3 "~" H 1350 2050 50  0001 C CNN
 	1    1350 2050
 	1    0    0    -1  
@@ -641,4 +593,62 @@ Text Label 1100 1100 0    50   ~ 0
 GND
 Wire Wire Line
 	850  1100 1100 1100
+$Comp
+L Switch:SW_MEC_5E SW1
+U 1 1 61E7FFD2
+P 1250 2800
+F 0 "SW1" V 1250 2500 50  0000 L CNN
+F 1 "SW_MEC_5E" H 1050 2700 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 1250 3100 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 1250 3100 50  0001 C CNN
+	1    1250 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_MEC_5E SW2
+U 1 1 61E8AAE5
+P 2300 2800
+F 0 "SW2" V 2300 2500 50  0000 L CNN
+F 1 "SW_MEC_5E" H 2100 2700 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 2300 3100 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 2300 3100 50  0001 C CNN
+	1    2300 2800
+	0    -1   1    0   
+$EndComp
+NoConn ~ 2300 3000
+Wire Wire Line
+	6600 2300 6800 2300
+Wire Wire Line
+	6600 2400 6800 2400
+Wire Wire Line
+	6600 2500 6800 2500
+Wire Wire Line
+	6600 2800 6800 2800
+Wire Wire Line
+	6600 2000 6800 2000
+Wire Wire Line
+	6600 2900 6800 2900
+Wire Wire Line
+	6600 2700 6800 2700
+Connection ~ 1350 3100
+NoConn ~ 1350 3000
+Wire Wire Line
+	1100 3100 1100 2600
+Wire Wire Line
+	1100 2600 1250 2600
+Wire Wire Line
+	1100 3100 1350 3100
+NoConn ~ 1250 3000
+Wire Wire Line
+	2200 3300 2200 3150
+NoConn ~ 2200 3000
+Wire Wire Line
+	2200 3150 2450 3150
+Wire Wire Line
+	2450 3150 2450 2600
+Wire Wire Line
+	2450 2600 2300 2600
+Wire Wire Line
+	2200 2500 2200 2600
+Connection ~ 2200 2500
 $EndSCHEMATC
