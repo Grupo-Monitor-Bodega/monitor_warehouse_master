@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:project1-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -595,11 +594,9 @@ GND
 Wire Wire Line
 	850  1100 1100 1100
 $Comp
-L project1-rescue:SW_MEC_5E-Switch SW1
+L Switch:SW_MEC_5E SW1
 U 1 1 61E7FFD2
 P 1250 2800
-AR Path="/61E7FFD2" Ref="SW1"  Part="1" 
-AR Path="/61E40B33/61E7FFD2" Ref="SW1"  Part="1" 
 F 0 "SW1" V 1250 2500 50  0000 L CNN
 F 1 "SW_MEC_5E" H 1050 2700 50  0000 L CNN
 F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 1250 3100 50  0001 C CNN
@@ -608,11 +605,9 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
 	0    1    1    0   
 $EndComp
 $Comp
-L project1-rescue:SW_MEC_5E-Switch SW2
+L Switch:SW_MEC_5E SW2
 U 1 1 61E8AAE5
 P 2300 2800
-AR Path="/61E8AAE5" Ref="SW2"  Part="1" 
-AR Path="/61E40B33/61E8AAE5" Ref="SW2"  Part="1" 
 F 0 "SW2" V 2300 2500 50  0000 L CNN
 F 1 "SW_MEC_5E" H 2100 2700 50  0000 L CNN
 F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 2300 3100 50  0001 C CNN

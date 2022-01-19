@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name esp32v2)(type Legacy)(uri ${KIPRJMOD}/esp32_wroom32.lib)(options "")(descr ""))
+  (lib (name project1-rescue)(type Legacy)(uri ${KIPRJMOD}/project1-rescue.lib)(options "")(descr ""))
 )
