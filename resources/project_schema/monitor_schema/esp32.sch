@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:project1-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -160,26 +159,11 @@ NoConn ~ 5650 3500
 NoConn ~ 5750 3500
 NoConn ~ 5850 3500
 NoConn ~ 5950 3500
-NoConn ~ 6050 3500
-NoConn ~ 6150 3500
 NoConn ~ 6600 3000
 NoConn ~ 6600 2600
 NoConn ~ 6600 2100
 Text Notes 9100 4200 2    50   ~ 0
 DTH22_SENSOR_CONN
-$Comp
-L esp32v2:ESP32-WROOM U?
-U 1 1 61E7E1DF
-P 5700 2450
-AR Path="/61E7E1DF" Ref="U?"  Part="1" 
-AR Path="/61E40B33/61E7E1DF" Ref="U2"  Part="1" 
-F 0 "U2" H 5675 3837 60  0000 C CNN
-F 1 "ESP32-WROOM" H 5675 3731 60  0000 C CNN
-F 2 "ESPRESSIF_3DMODELS:ESP32-WROOM-32E" H 6050 3800 60  0001 C CNN
-F 3 "" H 5250 2900 60  0001 C CNN
-	1    5700 2450
-	1    0    0    -1  
-$EndComp
 Wire Notes Line style solid
 	10350 4100 8250 4100
 Wire Notes Line style solid
@@ -188,29 +172,29 @@ Wire Notes Line style solid
 	8250 4650 10350 4650
 Wire Notes Line style solid
 	8250 4100 8250 4650
-Text Label 9300 4550 2    50   ~ 0
+Text Label 9650 4550 2    50   ~ 0
 GND
-Text Label 9300 4450 2    50   ~ 0
+Text Label 9650 4350 2    50   ~ 0
 DATA_OUT_DTH22_SENSOR
-Text Label 9300 4350 2    50   ~ 0
+Text Label 9650 4250 2    50   ~ 0
 Vin
 Wire Wire Line
-	9450 4550 9300 4550
+	9800 4550 9650 4550
 Wire Wire Line
-	9450 4450 9300 4450
+	9800 4350 9650 4350
 Wire Wire Line
-	9450 4350 9300 4350
+	9800 4250 9650 4250
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x04 J?
 U 1 1 61E7E1EF
-P 9650 4450
+P 10000 4350
 AR Path="/61E7E1EF" Ref="J?"  Part="1" 
 AR Path="/61E40B33/61E7E1EF" Ref="J2"  Part="1" 
-F 0 "J2" H 9730 4492 50  0000 L CNN
-F 1 "Conn_01x03" H 9730 4401 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 9650 4450 50  0001 C CNN
-F 3 "~" H 9650 4450 50  0001 C CNN
-	1    9650 4450
+F 0 "J2" H 10080 4392 50  0000 L CNN
+F 1 "Conn_01x03" H 10080 4301 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10000 4350 50  0001 C CNN
+F 3 "~" H 10000 4350 50  0001 C CNN
+	1    10000 4350
 	1    0    0    -1  
 $EndComp
 Text Notes 9100 2800 2    50   ~ 0
@@ -255,7 +239,7 @@ AR Path="/61E7E206" Ref="J?"  Part="1"
 AR Path="/61E40B33/61E7E206" Ref="J4"  Part="1" 
 F 0 "J4" H 9480 3192 50  0000 L CNN
 F 1 "Conn_01x06" H 9480 3101 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 9400 3200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 9400 3200 50  0001 C CNN
 F 3 "~" H 9400 3200 50  0001 C CNN
 	1    9400 3200
 	1    0    0    -1  
@@ -294,7 +278,7 @@ AR Path="/61E7E219" Ref="J?"  Part="1"
 AR Path="/61E40B33/61E7E219" Ref="J3"  Part="1" 
 F 0 "J3" H 9430 1592 50  0000 L CNN
 F 1 "Conn_01x04" H 9430 1501 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 9350 1600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9350 1600 50  0001 C CNN
 F 3 "~" H 9350 1600 50  0001 C CNN
 	1    9350 1600
 	1    0    0    -1  
@@ -325,8 +309,6 @@ Text Label 6800 2500 0    50   ~ 0
 CS
 Wire Wire Line
 	6600 1700 6800 1700
-Text Label 6800 2800 0    50   ~ 0
-DATA_OUT_DTH22_SENSOR
 Text Label 6800 1900 0    50   ~ 0
 RX
 Text Label 6800 2000 0    50   ~ 0
@@ -462,8 +444,6 @@ Text Label 4650 6000 0    50   ~ 0
 BATT_V
 Text Label 4450 2850 2    50   ~ 0
 BATT_V
-Text Label 6800 2700 0    50   ~ 0
-READ_BATT_V
 NoConn ~ 6600 1800
 Wire Notes Line style solid
 	2650 4300 2650 7050
@@ -503,7 +483,7 @@ AR Path="/61EFF9BF" Ref="J?"  Part="1"
 AR Path="/61E40B33/61EFF9BF" Ref="J6"  Part="1" 
 F 0 "J6" H 9730 5242 50  0000 L CNN
 F 1 "Conn_01x03" H 9730 5151 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 9650 5200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9650 5200 50  0001 C CNN
 F 3 "~" H 9650 5200 50  0001 C CNN
 	1    9650 5200
 	1    0    0    -1  
@@ -538,7 +518,7 @@ AR Path="/61F01DCC" Ref="J?"  Part="1"
 AR Path="/61E40B33/61F01DCC" Ref="J5"  Part="1" 
 F 0 "J5" H 9680 5942 50  0000 L CNN
 F 1 "Conn_01x03" H 9680 5851 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 9600 5900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9600 5900 50  0001 C CNN
 F 3 "~" H 9600 5900 50  0001 C CNN
 	1    9600 5900
 	1    0    0    -1  
@@ -628,8 +608,6 @@ Wire Wire Line
 Wire Wire Line
 	6600 2500 6800 2500
 Wire Wire Line
-	6600 2800 6800 2800
-Wire Wire Line
 	6600 2000 6800 2000
 Wire Wire Line
 	6600 2900 6800 2900
@@ -656,4 +634,32 @@ Wire Wire Line
 Wire Wire Line
 	2200 2500 2200 2600
 Connection ~ 2200 2500
+Wire Wire Line
+	9800 4450 9650 4450
+Text Label 9650 4450 2    50   ~ 0
+CLK_SENSOR
+$Comp
+L esp32v2:ESP32-WROOM U?
+U 1 1 61E7E1DF
+P 5700 2450
+AR Path="/61E7E1DF" Ref="U?"  Part="1" 
+AR Path="/61E40B33/61E7E1DF" Ref="U2"  Part="1" 
+F 0 "U2" H 5675 3837 60  0000 C CNN
+F 1 "ESP32-WROOM" H 5675 3731 60  0000 C CNN
+F 2 "ESPRESSIF_3DMODELS:ESP32-WROOM-32E" H 6050 3800 60  0001 C CNN
+F 3 "" H 5250 2900 60  0001 C CNN
+	1    5700 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 3500 6050 3600
+Wire Wire Line
+	6150 3500 6150 3600
+Text Label 6050 3600 3    50   ~ 0
+CLK_SENSOR
+Text Label 6150 3600 3    50   ~ 0
+DATA_OUT_DTH22_SENSOR
+Text Label 6800 2700 0    50   ~ 0
+READ_BATT_V
+NoConn ~ 6600 2800
 $EndSCHEMATC
