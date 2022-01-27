@@ -151,7 +151,6 @@ NoConn ~ 4750 2150
 NoConn ~ 4750 2450
 NoConn ~ 4750 2550
 NoConn ~ 4750 2950
-NoConn ~ 4750 3050
 NoConn ~ 5350 3500
 NoConn ~ 5450 3500
 NoConn ~ 5550 3500
@@ -612,7 +611,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 2900 6800 2900
 Wire Wire Line
-	6600 2700 6800 2700
+	4750 3050 4550 3050
 Connection ~ 1350 3100
 NoConn ~ 1350 3000
 Wire Wire Line
@@ -659,7 +658,8 @@ Text Label 6050 3600 3    50   ~ 0
 CLK_SENSOR
 Text Label 6150 3600 3    50   ~ 0
 DATA_OUT_DTH22_SENSOR
-Text Label 6800 2700 0    50   ~ 0
+Text Label 4550 3050 2    50   ~ 0
 READ_BATT_V
 NoConn ~ 6600 2800
+NoConn ~ 6600 2700
 $EndSCHEMATC

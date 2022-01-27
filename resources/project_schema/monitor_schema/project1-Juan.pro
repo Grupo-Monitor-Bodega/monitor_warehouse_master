@@ -1,4 +1,4 @@
-update=2022 January 25, Tuesday 07:46:22
+update=Wed 26 Jan 2022 10:01:59 PM -05
 version=1
 last_client=pcbnew
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=project1.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -60,7 +60,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0

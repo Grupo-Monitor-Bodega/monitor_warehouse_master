@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/raul/Documents/College/Embbebed_Systems/monitor_werehouse_master/resources/project_schema/monitor_schema/project1.sch)
-    (date "Thu 20 Jan 2022 11:25:51 PM -05")
+    (date "Wed 26 Jan 2022 10:00:50 PM -05")
     (tool "Eeschema 5.99.0+really5.1.12+dfsg1-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -125,8 +125,8 @@
       (sheetpath (names /esp32/) (tstamps /61E40B33/))
       (tstamp 61EA4A0C))
     (comp (ref Q2)
-      (value BSS84)
-      (footprint Package_TO_SOT_SMD:SOT-23)
+      (value IRFL9014)
+      (footprint Package_TO_SOT_SMD:SOT-223)
       (datasheet http://assets.nexperia.com/documents/data-sheet/BSS84.pdf)
       (libsource (lib Transistor_FET) (part BSS84) (description "-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"))
       (sheetpath (names /esp32/) (tstamps /61E40B33/))
