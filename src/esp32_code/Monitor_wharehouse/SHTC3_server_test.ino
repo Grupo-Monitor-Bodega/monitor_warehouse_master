@@ -4,8 +4,8 @@
 
 Adafruit_SHTC3 shtc3 = Adafruit_SHTC3();
 
-const char* ssid = "Carrero Guerrero";
-const char* password = "x04bnjd7622cg11%";
+const char* ssid = "XXXXXX";
+const char* password = "XXXXXXX";
 const char* host = "http://54.233.181.170";
 
 
